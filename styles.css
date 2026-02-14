@@ -160,6 +160,21 @@ body {
     background-color: #333;
 }
 
+/* Tertiary (e.g. Download): transparent background, border */
+.download-button.tertiary {
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #cbc9c1;
+}
+
+.download-button.tertiary:hover {
+    background-color: #e8e6dd;
+}
+
+.download-button.tertiary:active {
+    background-color: #e8e6dd;
+}
+
 /* ============================================
    Page label badge
    ============================================ */
